@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "зайти на сайт и проверить заголовок",
+        "description": "",
+        "id": "тест-на-проверку-заголовка;зайти-на-сайт-и-проверить-заголовок",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356750028,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access the page at url http://beta.legiontd2.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://beta.legiontd2.com/",
+                  "offset": 25
+                }
+              ],
+              "location": "DemoCucumber.geturl(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86813,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see the title Google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 23
+                }
+              ],
+              "location": "DemoCucumber.gettitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21497889106,
+              "error_message": "java.lang.IllegalStateException: Не удалось проверить заголовок\r\n\tat pages.home.HomePageTestSteps.checkTitle(HomePageTestSteps.java:66)\r\n\tat testClasses.demo.steps.DemoCucumber.testall(DemoCucumber.java:52)\r\n\tat ✽.Then check if it`s true(DemoCucumberTest.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "check if it`s true",
+            "match": {
+              "location": "DemoCucumber.testall()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "тест на проверку заголовка",
+    "description": "",
+    "id": "тест-на-проверку-заголовка",
+    "keyword": "Feature",
+    "uri": "DemoCucumberTest.feature"
+  }
+]

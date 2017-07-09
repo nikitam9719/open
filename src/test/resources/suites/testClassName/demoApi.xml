@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="demoApi" parallel="methods" thread-count="1">
+    <test name="demoApi tests">
+        <classes>
+            <class name="testClasses.demo.DemoApi"/>
+        </classes>
+    </test>
+</suite>

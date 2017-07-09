@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499622759648" stop="1499622858267" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : QA_EmptyProject</name>
+    <title>Default Suite : QA_EmptyProject</title>
+    <test-cases>
+        <test-case start="1499622759773" stop="1499622858262" status="passed">
+            <name>DemoTest1</name>
+            <title>Название кейса</title>
+            <steps>
+                <step start="1499622759803" stop="1499622825265" status="passed">
+                    <name>openHomePage[http://open.ru]</name>
+                    <title>Открыть браузер на главной странице Банка Открытие</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Last step screenshot" source="82ff3714-cbf1-41d3-b9d2-8f112db026bd-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="QA_EmptyProject"/>
+                <label name="testClass" value="testClasses.demo.Demo"/>
+                <label name="testMethod" value="DemoTest1"/>
+                <label name="story" value="UI Test"/>
+                <label name="feature" value="Front"/>
+                <label name="host" value="DESKTOP-0IIMLMR"/>
+                <label name="thread" value="21956@DESKTOP-0IIMLMR.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

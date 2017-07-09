@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499629955788" stop="1499630014302" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : QA_EmptyProject</name>
+    <title>Default Suite : QA_EmptyProject</title>
+    <test-cases>
+        <test-case start="1499629955886" stop="1499630014302" status="passed">
+            <name>DemoTest1</name>
+            <title>Название кейса</title>
+            <steps>
+                <step start="1499629955921" stop="1499629976496" status="passed">
+                    <name>openHomePage[http://open.ru]</name>
+                    <title>Открыть браузер на главной странице Банка Открытие</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499629976499" stop="1499629983656" status="passed">
+                    <name>clickToSearchBtn</name>
+                    <title>Нажать на кнопку поиска</title>
+                    <attachments>
+                        <attachment title="Снимок элемента &quot;Поиск&quot;" source="ef599da6-d492-4475-b89d-a1550a8bfff8-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1499629983657" stop="1499629987845" status="passed">
+                    <name>inputToSearchFrom[курс валюты]</name>
+                    <title>Ввести в строку поиска "курс валюты" </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499629987846" stop="1499629995376" status="passed">
+                    <name>pressEnterAndCheckCurrentURL[http://open.ru]</name>
+                    <title>Нажать enter и убедиться в переходе на новую страницу</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499629995376" stop="1499629995561" status="passed">
+                    <name>checkBankLogo</name>
+                    <title>Проверить отображение логотипа банка Открытие</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499629995561" stop="1499630002047" status="passed">
+                    <name>goDownPage</name>
+                    <title>Опуститься вниз страницы и взять номер телефона</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Last step screenshot" source="4484bad8-0b7f-42bc-9804-33fe065f082e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="QA_EmptyProject"/>
+                <label name="testClass" value="testClasses.demo.Demo"/>
+                <label name="testMethod" value="DemoTest1"/>
+                <label name="story" value="UI Test"/>
+                <label name="feature" value="Front"/>
+                <label name="host" value="DESKTOP-0IIMLMR"/>
+                <label name="thread" value="19472@DESKTOP-0IIMLMR.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

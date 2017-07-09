@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499615356579" stop="1499615406982" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : QA_EmptyProject</name>
+    <title>Default Suite : QA_EmptyProject</title>
+    <test-cases>
+        <test-case start="1499615356724" stop="1499615406976" status="passed">
+            <name>DemoTest2</name>
+            <title>Название кейса2</title>
+            <steps>
+                <step start="1499615356771" stop="1499615406630" status="passed">
+                    <name>getCardInfo</name>
+                    <title>Получить информацию по карте</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1499615357202" stop="1499615402562" status="passed">
+                            <name>getRequest[/apitest/accounts/12345678]</name>
+                            <title>Посылаем запрос по адресу /apitest/accounts/12345678</title>
+                            <attachments>
+                                <attachment title="Ответ по URL:" source="efaacd4f-cdc4-4041-90a0-a8868da2c7a5-attachment.json" type="application/json"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="QA_EmptyProject"/>
+                <label name="testClass" value="testClasses.demo.DemoApi"/>
+                <label name="testMethod" value="DemoTest2"/>
+                <label name="story" value="Api Test"/>
+                <label name="feature" value="Back"/>
+                <label name="host" value="DESKTOP-0IIMLMR"/>
+                <label name="thread" value="11676@DESKTOP-0IIMLMR.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

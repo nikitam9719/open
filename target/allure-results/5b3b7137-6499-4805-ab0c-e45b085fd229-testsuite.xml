@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499628618939" stop="1499628665265" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : QA_EmptyProject</name>
+    <title>Default Suite : QA_EmptyProject</title>
+    <test-cases>
+        <test-case start="1499628619053" stop="1499628665245" status="passed">
+            <name>testall</name>
+            <steps>
+                <step start="1499628619106" stop="1499628638752" status="passed">
+                    <name>openHomePage[http://open.ru]</name>
+                    <title>Открыть браузер на главной странице Банка Открытие</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499628638758" stop="1499628646768" status="passed">
+                    <name>checkTitle[null]</name>
+                    <title>Проверить заголовок страницы</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Last step screenshot" source="fbb5b5b4-df8d-46bd-ac79-668f9ffaf435-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="QA_EmptyProject"/>
+                <label name="testClass" value="testClasses.demo.steps.DemoCucumber"/>
+                <label name="testMethod" value="testall"/>
+                <label name="host" value="DESKTOP-0IIMLMR"/>
+                <label name="thread" value="544@DESKTOP-0IIMLMR.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
